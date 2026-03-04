@@ -135,7 +135,7 @@ richness$col <- pal(100)[as.numeric(cut(richness$n_species, breaks = 100))]
 richness$n_species_squared <- richness$n_species^2
 
 library(mapdeck)
-set_token('pk.eyJ1IjoiaXNtYXNhIiwiYSI6ImNtZTJmejE3cTB0Ym8ybHNhaTJyNWt0bHYifQ.eFeXSonlPcSvrWKJp5gsUw')
+set_token('***************************')
 
   
 p1 <- mapdeck(
@@ -1049,6 +1049,7 @@ ggsave(
   width = 15,                       
   height = 12,                      
   dpi = 300 )
+
 
 
 
