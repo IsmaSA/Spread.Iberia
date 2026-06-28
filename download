@@ -1,0 +1,20 @@
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*~
+
+# Large raw data (keep out of version control; document in Database/README.md)
+Database/*.rds
+*.tif
+*.gpkg
+
+# Rendered outputs (uncomment if you prefer not to track figures)
+# Plots/*.svg
+# Plots/*.png
